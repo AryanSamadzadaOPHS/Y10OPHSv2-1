@@ -1,0 +1,10 @@
+num1 = int(input("Enter a number"))
+total = num1
+loop = "y"
+
+while loop == "y":
+    num2 = int(input("Enter another number "))
+    total += num2
+    loop = input("Do you want to add another number? Y or N").lower()
+
+print(total)
